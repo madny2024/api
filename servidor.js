@@ -9,7 +9,7 @@ const PORTA = process.env.PORT || 3000;
 const apiUrl = 'https://jonbet.bet.br/api/singleplayer-originals/originals/roulette_games/recent/1';
 
 // -> NOVO: Configuração do Proxy (este é um proxy público e pode ser instável)
-const proxyUrl = '200.255.88.23:80';
+const proxyUrl = '	200.174.198.86:8888';
 const proxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyUrl);
 
 
