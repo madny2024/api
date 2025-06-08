@@ -1,0 +1,1 @@
+const PORTA = process.env.PORT || 3000;
